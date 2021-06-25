@@ -1,92 +1,85 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  body {
-    margin: 0;
-  }
-  .container {
-      width: 100vw;
-      height: 100vh;
-      align-items: center;
-      justify-content: center;
-
-    
-  }
-  .main-header {
-      width: auto;
-      height: 60px;
-     border: 0;
-  }
-  ul {
-     margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-  .header-logo {
-    height: 40px;
-    width: 208px;
-    margin-left:2rem;
-    margin-bottom: 0.8rem;
-    margin-top: 0.4rem;
+body {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.main-header {
+  width: auto;
+  height: 60px;
+  border: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.header-logo {
+  height: 40px;
+  width: 208px;
+  margin-left: 2rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.4rem;
 }
 .nav-list1 {
-    width: 100%;
+  width: 100%;
   height: 1.875rem;
   margin-bottom: 0.5rem;
 }
 .product-select {
-
-    margin: 0;
-    padding: 0;
-    border: 0;
-
-
-  }
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
 .nav-list2 {
-    width: 100%;
-    height: 1.875rem;
-    margin-bottom: 0.6rem;
+  width: 100%;
+  height: 1.875rem;
+  margin-bottom: 0.6rem;
 }
 .sign-up-button {
-    width: 79px;
-    height: auto;
-    padding-left: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-   border: 1px solid black;
-   color:hsl(207, 100%, 50%);
-
+  width: 79px;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid black;
+  color: hsl(207, 100%, 50%);
 }
 .four-column-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    align-items: center;
-  }
-  .three-column-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    align-items: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+.three-column-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
 .content1 {
-    width: auto;
+  width: auto;
   height: auto;
   background-color: hsla(240, 100%, 50%, 0.979);
 }
 .content1-paragraph {
-    width:auto;
-    height: auto;
-    color: white;
-    margin-left: 3rem;
-
+  width: auto;
+  height: auto;
+  color: white;
+  margin-left: 3rem;
 }
 .content1-sign-up {
-    width: 480px;
-    height: auto;
-    background-color: white;
+  width: 480px;
+  height: auto;
+  background-color: white;
   border: 0.125rem solid white;
   border-radius: 1rem;
   margin-top: 2rem;
@@ -104,147 +97,140 @@ button {
   border-bottom: 1px solid rgb(245, 243, 243);
 }
 .create-account-button {
-    
-    background-color: hsl(207, 100%, 50%);
-    color: white;
+  background-color: hsl(207, 100%, 50%);
+  color: white;
 }
 .grid-auto-flow {
-    display: grid;
-    grid-auto-flow: row;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  .two-column-grid {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 4px; 
-  }
-  .content2 {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: 60px 120px 80px;
-      border: 1px solid green;
-      grid-template-areas:"header"
-      "main"
-      "footer";
-  }
-  h2 {
-    font-size: 10px;
-    text-align: center;
-    margin-top: 36px;
-  }
-  .icon-inline {
-    display: grid;
-    grid-template-columns: repeat(6, 120px);
-    margin-left: 280px;
-    align-items: center;
-    justify-items: center;
-  }
-  .customer-story-nav {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 36px;
-  }
-  .content3 {
-    width: auto;
-    height: 450px;
-  }
-  .content3-main {
-    width: auto;
-    height: 355px;
-    border: 1px dotted red;
-  
-    grid-template-columns: 1fr 700px;
-    grid-template-rows: 1fr;
-    grid-template-areas: column1 column2;
-    background-color: lightpink;
-  }
-  .cnotent3-column1 {
-    width: 400px;
-    height: 353px;
-    border: 1px dotted purple;
-  }
-  .content3-column2 {
-    width: 1fr;
-    height: 353px;
-    border: 1px dotted purple;
-  }
+  display: grid;
+  grid-auto-flow: row;
+  gap: 0.5rem;
+  text-align: center;
+}
+.two-column-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px;
+}
+.content2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 60px 120px 80px;
+  border: 1px solid green;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+h2 {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 36px;
+}
+.icon-inline {
+  display: grid;
+  grid-template-columns: repeat(6, 120px);
+  margin-left: 280px;
+  align-items: center;
+  justify-items: center;
+}
+.customer-story-nav {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 36px;
+}
+.content3 {
+  width: auto;
+  height: 450px;
+}
+.content3-main {
+  width: auto;
+  height: 355px;
+  border: 1px dotted red;
 
-  
-  .content3-header {
-    font-size: 25;
-    text-align: center;
-    margin-top: 30px;
-  }
-  .content3-leftside-grid {
-      width: 150px;
-      height: 150px;
-      text-align: left;
-      padding-top: 10px;
-      padding-left: 0;
-      border-left: 2px solid black;
-      margin-top: 80px;
-      margin-left: 150px;
-    
-  }
-  .content3-leftside-list {
-    margin-left: 20px;
-    margin-top: 20px;
-    }
-  .content3-rightside-grid-li {
-      width: 350px;
-      height :180px;
-      border:1px dotted rgba(19, 19, 226, 0.979);
-      display: grid;
-      grid-area: "content3-colum2";
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1rem;
-     
-    }
-    
-    .content4 {
-      width:auto;
-      height: 320px;
-      border: 1px dotted green;
+  grid-template-columns: 1fr 700px;
+  grid-template-rows: 1fr;
+  grid-template-areas: column1 column2;
+  background-color: lightpink;
+}
+.cnotent3-column1 {
+  width: 400px;
+  height: 353px;
+  border: 1px dotted purple;
+}
+.content3-column2 {
+  width: 1fr;
+  height: 353px;
+  border: 1px dotted purple;
+}
 
-    }
-    .content5 {
-      width: auto;
-      height: 165px;
-      border: 1px dotted green;
-    }
-    .content6 {
-      width: auto;
-      height:170px;
-      border: 1px dotted green;
-      background-color: rgba(19, 19, 226, 0.979);
-    }
-    .content7 {
-      width: auto;
-      height: 250px;
-      border: 1px dotted green;
-    }
-    .content8 {
-       width: auto;
-       height: 120;
-       border: 1px dotted green;
-       background-color: rgba(19, 19, 226, 0.979);
-    }
-    /* footer style */
-    footer {
-      width: auto;
-      height: 1fr;
-      border: 1px dotted green;
-      background-color: lightblue;
-    }
-    .footer-column1 {
-      width: 350px;
-      height: 420px;
-      border: 1px dotted red;
-    }
-    .icon {
-     width:50px;
-     height: 50px;
-    border: 1px dotted purple;
-     
-    }
+.content3-header {
+  font-size: 25;
+  text-align: center;
+  margin-top: 30px;
+}
+.content3-leftside-grid {
+  width: 150px;
+  height: 150px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 0;
+  border-left: 2px solid black;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+.content3-leftside-list {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.content3-rightside-grid-li {
+  width: 350px;
+  height: 180px;
+  border: 1px dotted rgba(19, 19, 226, 0.979);
+  display: grid;
+  grid-area: "content3-colum2";
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.content4 {
+  width: auto;
+  height: 320px;
+  border: 1px dotted green;
+}
+.content5 {
+  width: auto;
+  height: 165px;
+  border: 1px dotted green;
+}
+.content6 {
+  width: auto;
+  height: 170px;
+  border: 1px dotted green;
+  background-color: rgba(19, 19, 226, 0.979);
+}
+.content7 {
+  width: auto;
+  height: 250px;
+  border: 1px dotted green;
+}
+.content8 {
+  width: auto;
+  height: 120;
+  border: 1px dotted green;
+  background-color: rgba(19, 19, 226, 0.979);
+}
+/* footer style */
+footer {
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+  background-color: blue;
+}
+.footer-column1 {
+  width: 350px;
+  height: 420px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 1px dotted purple;
+}
