@@ -138,29 +138,17 @@ h2 {
   text-align: center;
   margin-top: 36px;
 }
+/*content3 style*/
 .content3 {
   width: auto;
   height: 450px;
 }
 .content3-main {
   width: auto;
-  height: 355px;
-  border: 1px dotted red;
-
-  grid-template-columns: 1fr 700px;
-  grid-template-rows: 1fr;
-  grid-template-areas: column1 column2;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr;
   background-color: lightpink;
-}
-.cnotent3-column1 {
-  width: 400px;
-  height: 353px;
-  border: 1px dotted purple;
-}
-.content3-column2 {
-  width: 1fr;
-  height: 353px;
-  border: 1px dotted purple;
 }
 
 .content3-header {
@@ -182,17 +170,15 @@ h2 {
   margin-left: 20px;
   margin-top: 20px;
 }
-.content3-rightside-grid-li {
-  width: 350px;
-  height: 180px;
-  border: 1px dotted rgba(19, 19, 226, 0.979);
-  display: grid;
-  grid-area: "content3-colum2";
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+.content-column2-card1 {
+  width: 200px;
+  height: 100px;
+  padding-top: 30px;
+  border: 2px dotted black;
+  margin-top: 50px;
 }
 
-.content4 {
+/*.content4 {
   width: auto;
   height: 320px;
   border: 1px dotted green;
@@ -218,19 +204,36 @@ h2 {
   height: 120;
   border: 1px dotted green;
   background-color: rgba(19, 19, 226, 0.979);
-}
+}*/
 /* footer style */
-footer {
+.bg-blue {
+  background-color: #050563;
+}
+h2 {
+  color: rgb(245, 243, 243);
+  font-size: 20px;
+  margin-right: 200px;
+}
+.main-footer {
+  color: #979494;
+}
+.footer-5column {
   display: grid;
-  grid-template-columns: 2fr repeat(4, 1fr);
-  background-color: blue;
+  grid-template-columns: 430px repeat(4, 1fr);
 }
-.footer-column1 {
-  width: 350px;
-  height: 420px;
-}
-.icon {
+.footer-logo {
   width: 50px;
   height: 50px;
-  border: 1px dotted purple;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 2px dotted black;
+}
+.footer-social-icon-nav {
+  width: 50px;
+  height: 50px;
+  border: 2px dotted black;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 1rem;
 }
