@@ -141,14 +141,13 @@ h2 {
 /*content3 style*/
 .content3 {
   width: auto;
-  height: 450px;
+  height: 490px;
 }
 .content3-main {
   width: auto;
   height: 350px;
   display: grid;
   grid-template-columns: 300px 1fr 1fr;
-  background-color: lightpink;
 }
 
 .content3-header {
@@ -178,33 +177,109 @@ h2 {
   margin-top: 50px;
 }
 
-/*.content4 {
-  width: auto;
-  height: 320px;
-  border: 1px dotted green;
+/* content4 */
+.content4-header {
+  font-size: larger;
+  text-align: center;
 }
-.content5 {
-  width: auto;
-  height: 165px;
-  border: 1px dotted green;
+.content4-main {
+  text-align: center;
 }
+.content4-footer {
+  text-align: center;
+}
+.screenshot {
+  width: 500px;
+  height: 280px;
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* content5 */
+.content5-header {
+  font-size: larger;
+  text-align: center;
+  margin-top: 50px;
+  font-size: x-large;
+}
+.content5-3columns {
+  width: 900px;
+  height: 400;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: left;
+  margin-left: 150px;
+  gap: 100px;
+}
+.content5-first-column-logo {
+  width: 50px;
+  height: 50px;
+  border-color: 2px dotted black;
+  display: grid;
+}
+/*content6*/
 .content6 {
   width: auto;
-  height: 170px;
-  border: 1px dotted green;
-  background-color: rgba(19, 19, 226, 0.979);
+  height: 530px;
+  background-color: hsla(240, 100%, 50%, 0.979);
 }
+.content6-header {
+  text-align: center;
+  margin-top: 50px;
+  font-size: x-large;
+  padding-top: 30px;
+}
+.content6-two-column {
+  width: auto;
+  height: 550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+/*content7*/
 .content7 {
   width: auto;
-  height: 250px;
-  border: 1px dotted green;
+  height: 480px;
 }
+.content7-header {
+  width: auto;
+  height: 80px;
+  font-size: xx-large;
+  text-align: center;
+}
+.screenshot {
+  align-items: center;
+}
+.cnotent7-onecolumn {
+  width: auto;
+  height: 1fr;
+}
+/*content8*/
 .content8 {
   width: auto;
-  height: 120;
-  border: 1px dotted green;
-  background-color: rgba(19, 19, 226, 0.979);
-}*/
+  height: 160px;
+  background-color: hsla(240, 100%, 50%, 0.979);
+}
+.content8-header {
+  width: auto;
+  height: 60px;
+  font-size: xx-large;
+  text-align: center;
+}
+.content8-header-get-start {
+  color: white;
+  padding-top: 20px;
+}
+.create-account-button {
+  width: auto;
+  height: 120px;
+  background-color: hsla(240, 100%, 50%, 0.979);
+}
+}
+.account-button {
+  align-items: center;
+}
+
 /* footer style */
 .bg-blue {
   background-color: #050563;
